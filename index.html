@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div id="frame">
+    <h1>ToDo lista</h1>
+    <div id="innerFrame">
+    <div>
+        <div id="errorMessage" style="color: rgba(255, 0, 0, 0.788);"></div>
+        <div id="inputframe">
+        <input type="text" id="taskDescription" placeholder="Lägg till ToDo"/>
+        <button id="todoButton" onclick="addNewTask()">Lägg till</button>
+        <button id="resetButton">Återställ</button>
+        </div>
+        <br>
+    </div>
+    <div id="TaskMessage"></div>
+    <h2>Aktiva</h2>
+    <div id="activeTaskList"></div>
+    <div id="activeTaskMessage"></div>
+    <br>
+    <h2>Färdiga</h2>
+    <div id="completedTaskList"></div>
+    <div id="completedTaskMessage"></div>
+</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
